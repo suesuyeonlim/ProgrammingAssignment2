@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These following two functions store a matrix and an inverse of the matrix. Also, when you input a new matrix, it calculates an inverse of it and stores it.
 
-## Write a short comment describing this function
+## makeCacheMatrix contains four sub functions; set, get, setinv, and getinv.
 
 makeCacheMatrix <- function(x = matrix()) {
   i<-NULL
